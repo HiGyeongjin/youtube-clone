@@ -1,0 +1,30 @@
+.videos.grid {
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  margin-left: 3.5rem;
+  margin-top: 4rem;
+}
+.videos.list {
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  width: 26.625rem;
+  margin-top: 3.5rem;
+}
+
+@media screen and (max-width: 64rem) {
+  .videos.list {
+    width: 100%;
+    padding: 0;
+  }
+}
